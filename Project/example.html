@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IPyVolume Widget</title>
+    
+</head>
+<body>
+
+
+
+<!-- Load require.js. Delete this if your page already loads require.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@jupyter-widgets/html-manager@^1.0.1/dist/embed-amd.js" crossorigin="anonymous"></script>
+
+<script type="application/vnd.jupyter.widget-state+json">
+{
+  "version_major": 2,
+  "version_minor": 0,
+  "state": {
+    "9da7d62c8ec444d798a0634611e270c5": {
+      "model_name": "VuetifyTemplateModel",
+      "model_module": "jupyter-vuetify",
+      "model_module_version": "^1.8.10",
+      "state": {
+        "_component_instances": [],
+        "_dom_classes": [],
+        "_jupyter_vue": "IPY_MODEL_3ed0acc8a6054b6cb506bb2bc8e87129",
+        "_model_module": "jupyter-vuetify",
+        "_model_module_version": "^1.8.10",
+        "_model_name": "VuetifyTemplateModel",
+        "_view_count": null,
+        "_view_module": "jupyter-vuetify",
+        "_view_module_version": "^1.8.10",
+        "_view_name": "VuetifyView",
+        "children": [],
+        "components": null,
+        "css": null,
+        "data": null,
+        "events": [],
+        "figure": "IPY_MODEL_f2bd245f69cd47089992f874ff11ae8d",
+        "layout": "IPY_MODEL_0cb3770241bd4171be164a2ffac39056",
+        "legend": "IPY_MODEL_c435f9b0c48440d6a0dd49ae9ac8d713",
+        "legend_show": true,
+        "methods": null,
+        "models": {
+          "figure": {
+            "show": "render"
+          }
+        },
+        "panels": [
+          0,
+          1,
+          2
+        ],
+        "tabbable": null,
+        "template": "IPY_MODEL_8184194d439b4c1080c1050ccc857768",
+        "tooltip": null
+      }
+    },
+    "3ed0acc8a6054b6cb506bb2bc8e87129": {
+      "model_name": "ForceLoadModel",
+      "model_module": "jupyter-vue",
+      "model_module_version": "^1.9.2",
+      "state": {
+        "_dom_classes": [],
+        "_model_module": "jupyter-vue",
+        "_model_module_version": "^1.9.2",
+        "_model_name": "ForceLoadModel",
+        "_view_count": null,
+        "_view_module": null,
+        "_view_module_version": "",
+        "_view_name": null,
+        "layout": "IPY_MODEL_0e0bccf34c8d42968e96b3ff2684bb71",
+        "tabbable": null,
+        "tooltip": null
+      }
+    },
+    "0e0bccf34c8d42968e96b3ff2684bb71": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "state": {
+        "_model_module": "@jupyter-widgets/base",
+        "_model_module_version": "2.0.0",
+        "_model_name": "LayoutModel",
+        "_view_count": null,
+        "_view_module": "@jupyter-widgets/base",
+        "_view_module_version": "2.0.0",
+        "_view_name": "LayoutView",
+        "align_content": null,
+        "align_items": null,
+        "align_self": null,
+        "border_bottom": null,
+        "border_left": null,
+        "border_right": null,
+        "border_top": null,
+        "bottom": null,
+        "display": null,
+        "flex": null,
+        "flex_flow": null,
+        "grid_area": null,
+        "grid_auto_columns": null,
+        "grid_auto_flow": null,
+        "grid_auto_rows": null,
+        "grid_column": null,
+        "grid_gap": null,
+        "grid_row": null,
+        "grid_template_areas": null,
+        "grid_template_columns": null,
+        "grid_template_rows": null,
+        "height": null,
+        "justify_content": null,
+        "justify_items": null,
+        "left": null,
+        "margin": null,
+        "max_height": null,
+        "max_width": null,
+        "min_height": null,
+        "min_width": null,
+        "object_fit": null,
+        "object_position": null,
+        "order": null,
+        "overflow": null,
+        "padding": null,
+        "right": null,
+        "top": null,
+        "visibility": null,
+        "width": null
+      }
+    },
+    "f2bd245f69cd47089992f874ff11ae8d": {
+      "model_name": "FigureModel",
+      "model_module": "ipyvolume",
+      "model_module_version": "~0.6.3",
+      "state": {
+        "_dom_classes": [],
+        "_model_module": "ipyvolume",
+        "_model_module_version": "~0.6.3",
+        "_model_name": "FigureModel",
+        "_shaders": {},
+        "_view_count": null,
+        "_view_module": "ipyvolume",
+        "_view_module_version": "~0.6.3",
+        "_view_name": "FigureView",
+        "ambient_coefficient": 0.5,
+        "animation": 1000.0,
+        "animation_exponent": 1.0,
+        "box_center": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "box_size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "camera": "IPY_MODEL_35af4b961b6e48c49ae0160de47c0a3a",
+        "camera_center": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "camera_control": "trackball",
+        "camera_fov": 45.0,
+        "capture_fps": null,
+        "controls": null,
+        "cube_resolution": 512,
+        "diffuse_coefficient": 0.8,
+        "displayscale": 1.0,
+        "eye_separation": 6.4,
+        "height": 500,
+        "layout": "IPY_MODEL_f0c0b50160a546b7966956fee4cadfad",
+        "lights": [],
+        "matrix_projection": [
+          3.017766952966369,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.4142135623730954,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.00010000500025,
+          -1.0,
+          0.0,
+          0.0,
+          -0.200010000500025,
+          0.0
+        ],
+        "matrix_world": [
+          0.04782391478309172,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.050166408476034825,
+          3.071806578244735e-18,
+          0.0,
+          0.0,
+          -2.85656786865844e-18,
+          0.04665129359170814,
+          0.0,
+          -0.048531856124947204,
+          -0.011086904870197868,
+          -1.965226131951759,
+          1.0
+        ],
+        "meshes": [],
+        "mouse_mode": "normal",
+        "orientation_control": false,
+        "panorama_mode": "no",
+        "pixel_ratio": null,
+        "popup_debouce": 100,
+        "render_continuous": false,
+        "scales": {
+          "x": "IPY_MODEL_fe9a6e9eb25f41e2901dd825ba7b8892",
+          "y": "IPY_MODEL_edc44361c3c34ccfac74c81b38e04479",
+          "z": "IPY_MODEL_2cd630b11af144d38de99ff906bab545"
+        },
+        "scatters": [
+          "IPY_MODEL_7de5c18a7b294d009cb9134bac4d5a5e"
+        ],
+        "scene": "IPY_MODEL_09f9124874ee4361b774bf7f48956ae1",
+        "selection_mode": "replace",
+        "selector": "lasso",
+        "show": "render",
+        "slice_x": 0.0,
+        "slice_y": 0.0,
+        "slice_z": 0.0,
+        "specular_coefficient": 0.5,
+        "specular_exponent": 5.0,
+        "stereo": false,
+        "style": {
+          "axes": {
+            "visible": true,
+            "label": {
+              "color": "black"
+            },
+            "ticklabel": {
+              "color": "black"
+            },
+            "color": "black"
+          },
+          "box": {
+            "visible": true
+          },
+          "background-color": "white"
+        },
+        "tabbable": null,
+        "tooltip": null,
+        "volumes": [],
+        "width": 400,
+        "xlabel": "x",
+        "ylabel": "y",
+        "zlabel": "z"
+      }
+    },
+    "35af4b961b6e48c49ae0160de47c0a3a": {
+      "model_name": "PerspectiveCameraModel",
+      "model_module": "jupyter-threejs",
+      "model_module_version": "^2.4.1",
+      "state": {
+        "_model_module": "jupyter-threejs",
+        "_model_module_version": "^2.4.1",
+        "_model_name": "PerspectiveCameraModel",
+        "_view_count": null,
+        "_view_module": null,
+        "_view_module_version": "",
+        "_view_name": null,
+        "aspect": 0.8,
+        "castShadow": false,
+        "children": [],
+        "far": 2000.0,
+        "focus": 10.0,
+        "fov": 45.0,
+        "frustumCulled": true,
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          -6.123233995736766e-17,
+          0.0,
+          0.0,
+          6.123233995736766e-17,
+          1.0,
+          0.0,
+          0.0,
+          1.2246467991473532e-16,
+          2.0,
+          1.0
+        ],
+        "matrixAutoUpdate": true,
+        "matrixWorld": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          -6.123233995736766e-17,
+          0.0,
+          0.0,
+          6.123233995736766e-17,
+          1.0,
+          0.0,
+          0.0,
+          1.2246467991473532e-16,
+          2.0,
+          1.0
+        ],
+        "matrixWorldInverse": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          6.123233995736766e-17,
+          0.0,
+          0.0,
+          -6.123233995736766e-17,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          -2.0,
+          1.0
+        ],
+        "matrixWorldNeedsUpdate": true,
+        "modelViewMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "name": "",
+        "near": 0.1,
+        "normalMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "position": [
+          0.0,
+          1.2246467991473532e-16,
+          2.0
+        ],
+        "projectionMatrix": [
+          3.017766952966369,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.4142135623730954,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.00010000500025,
+          -1.0,
+          0.0,
+          0.0,
+          -0.200010000500025,
+          0.0
+        ],
+        "quaternion": [
+          -3.061616997868383e-17,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiveShadow": false,
+        "renderOrder": 0,
+        "rotation": [
+          -6.123233995736766e-17,
+          0.0,
+          0.0,
+          "XYZ"
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "type": "PerspectiveCamera",
+        "up": [
+          0.0,
+          1.0,
+          -6.123233995736766e-17
+        ],
+        "visible": true,
+        "zoom": 1.0
+      }
+    },
+    "f0c0b50160a546b7966956fee4cadfad": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "state": {
+        "_model_module": "@jupyter-widgets/base",
+        "_model_module_version": "2.0.0",
+        "_model_name": "LayoutModel",
+        "_view_count": null,
+        "_view_module": "@jupyter-widgets/base",
+        "_view_module_version": "2.0.0",
+        "_view_name": "LayoutView",
+        "align_content": null,
+        "align_items": null,
+        "align_self": null,
+        "border_bottom": null,
+        "border_left": null,
+        "border_right": null,
+        "border_top": null,
+        "bottom": null,
+        "display": null,
+        "flex": null,
+        "flex_flow": null,
+        "grid_area": null,
+        "grid_auto_columns": null,
+        "grid_auto_flow": null,
+        "grid_auto_rows": null,
+        "grid_column": null,
+        "grid_gap": null,
+        "grid_row": null,
+        "grid_template_areas": null,
+        "grid_template_columns": null,
+        "grid_template_rows": null,
+        "height": null,
+        "justify_content": null,
+        "justify_items": null,
+        "left": null,
+        "margin": null,
+        "max_height": null,
+        "max_width": null,
+        "min_height": null,
+        "min_width": null,
+        "object_fit": null,
+        "object_position": null,
+        "order": null,
+        "overflow": null,
+        "padding": null,
+        "right": null,
+        "top": null,
+        "visibility": null,
+        "width": null
+      }
+    },
+    "fe9a6e9eb25f41e2901dd825ba7b8892": {
+      "model_name": "LinearScaleModel",
+      "model_module": "bqplot",
+      "model_module_version": "^0.5",
+      "state": {
+        "_model_module": "bqplot",
+        "_model_module_version": "^0.5",
+        "_model_name": "LinearScaleModel",
+        "_view_count": null,
+        "_view_module": "bqplot",
+        "_view_module_version": "^0.5",
+        "_view_name": "LinearScale",
+        "allow_padding": true,
+        "max": 11.469823384656962,
+        "mid_range": 0.8,
+        "min": -9.440217220248783,
+        "min_range": 0.6,
+        "reverse": false,
+        "stabilized": false
+      }
+    },
+    "edc44361c3c34ccfac74c81b38e04479": {
+      "model_name": "LinearScaleModel",
+      "model_module": "bqplot",
+      "model_module_version": "^0.5",
+      "state": {
+        "_model_module": "bqplot",
+        "_model_module_version": "^0.5",
+        "_model_name": "LinearScaleModel",
+        "_view_count": null,
+        "_view_module": "bqplot",
+        "_view_module_version": "^0.5",
+        "_view_name": "LinearScale",
+        "allow_padding": true,
+        "max": 10.187831267896145,
+        "mid_range": 0.8,
+        "min": -9.745826141079295,
+        "min_range": 0.6,
+        "reverse": false,
+        "stabilized": false
+      }
+    },
+    "2cd630b11af144d38de99ff906bab545": {
+      "model_name": "LinearScaleModel",
+      "model_module": "bqplot",
+      "model_module_version": "^0.5",
+      "state": {
+        "_model_module": "bqplot",
+        "_model_module_version": "^0.5",
+        "_model_name": "LinearScaleModel",
+        "_view_count": null,
+        "_view_module": "bqplot",
+        "_view_module_version": "^0.5",
+        "_view_name": "LinearScale",
+        "allow_padding": true,
+        "max": 9.9724165426883,
+        "mid_range": 0.8,
+        "min": -11.46321627710003,
+        "min_range": 0.6,
+        "reverse": false,
+        "stabilized": false
+      }
+    },
+    "7de5c18a7b294d009cb9134bac4d5a5e": {
+      "model_name": "ScatterModel",
+      "model_module": "ipyvolume",
+      "model_module_version": "~0.6.3",
+      "state": {
+        "_model_module": "ipyvolume",
+        "_model_module_version": "~0.6.3",
+        "_model_name": "ScatterModel",
+        "_view_count": null,
+        "_view_module": "ipyvolume",
+        "_view_module_version": "~0.6.3",
+        "_view_name": "ScatterView",
+        "aux": null,
+        "aux_scale": null,
+        "cast_shadow": true,
+        "clicked": null,
+        "clicked_index": null,
+        "color": "red",
+        "color_scale": null,
+        "color_selected": "white",
+        "connected": false,
+        "description": "Scatter 0",
+        "description_color": "red",
+        "geo": "box",
+        "geo_matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "hovered": null,
+        "hovered_index": null,
+        "icon": "mdi-chart-bubble",
+        "line_material": "IPY_MODEL_0118832f887f491297297442ad8ecaac",
+        "material": "IPY_MODEL_67b808a9806b474f8f4d48a010d0164c",
+        "popup": null,
+        "receive_shadow": true,
+        "selected": null,
+        "sequence_index": 0,
+        "shader_snippets": {
+          "size": "\n"
+        },
+        "size": 2,
+        "size_selected": 2.6,
+        "size_x_scale": null,
+        "size_y_scale": null,
+        "size_z_scale": null,
+        "texture": null,
+        "visible": true,
+        "vx": null,
+        "vy": null,
+        "vz": null,
+        "x": [
+          {
+            "dtype": "float32",
+            "shape": [
+              1000
+            ]
+          }
+        ],
+        "y": [
+          {
+            "dtype": "float32",
+            "shape": [
+              1000
+            ]
+          }
+        ],
+        "z": [
+          {
+            "dtype": "float32",
+            "shape": [
+              1000
+            ]
+          }
+        ]
+      },
+      "buffers": [
+        {
+          "encoding": "base64",
+          "path": [
+            "x",
+            0,
+            "data"
+          ],
+          "data": "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"
+        },
+        {
+          "encoding": "base64",
+          "path": [
+            "y",
+            0,
+            "data"
+          ],
+          "data": "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"
+        },
+        {
+          "encoding": "base64",
+          "path": [
+            "z",
+            0,
+            "data"
+          ],
+          "data": "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"
+        }
+      ]
+    },
+    "0118832f887f491297297442ad8ecaac": {
+      "model_name": "ShaderMaterialModel",
+      "model_module": "jupyter-threejs",
+      "model_module_version": "^2.4.1",
+      "state": {
+        "_model_module": "jupyter-threejs",
+        "_model_module_version": "^2.4.1",
+        "_model_name": "ShaderMaterialModel",
+        "_view_count": null,
+        "_view_module": null,
+        "_view_module_version": "",
+        "_view_name": null,
+        "alphaTest": 0.0,
+        "blendDst": "OneMinusSrcAlphaFactor",
+        "blendDstAlpha": 0.0,
+        "blendEquation": "AddEquation",
+        "blendEquationAlpha": 0.0,
+        "blendSrc": "SrcAlphaFactor",
+        "blendSrcAlpha": 0.0,
+        "blending": "NormalBlending",
+        "clipIntersection": false,
+        "clipShadows": false,
+        "clipping": false,
+        "clippingPlanes": [],
+        "colorWrite": true,
+        "defines": null,
+        "depthFunc": "LessEqualDepth",
+        "depthTest": true,
+        "depthWrite": true,
+        "dithering": false,
+        "extensions": {},
+        "flatShading": false,
+        "fog": false,
+        "fragmentShader": "",
+        "lights": false,
+        "linewidth": 1.0,
+        "morphNormals": false,
+        "morphTargets": false,
+        "name": "",
+        "opacity": 1.0,
+        "overdraw": 0.0,
+        "polygonOffset": false,
+        "polygonOffsetFactor": 0.0,
+        "polygonOffsetUnits": 0.0,
+        "precision": null,
+        "premultipliedAlpha": false,
+        "shadowSide": null,
+        "side": "FrontSide",
+        "skinning": false,
+        "transparent": false,
+        "type": "ShaderMaterial",
+        "uniforms": {},
+        "uniformsNeedUpdate": false,
+        "vertexColors": "NoColors",
+        "vertexShader": "",
+        "visible": true,
+        "wireframe": false,
+        "wireframeLinewidth": 1.0
+      }
+    },
+    "67b808a9806b474f8f4d48a010d0164c": {
+      "model_name": "ShaderMaterialModel",
+      "model_module": "jupyter-threejs",
+      "model_module_version": "^2.4.1",
+      "state": {
+        "_model_module": "jupyter-threejs",
+        "_model_module_version": "^2.4.1",
+        "_model_name": "ShaderMaterialModel",
+        "_view_count": null,
+        "_view_module": null,
+        "_view_module_version": "",
+        "_view_name": null,
+        "alphaTest": 0.0,
+        "blendDst": "OneMinusSrcAlphaFactor",
+        "blendDstAlpha": 0.0,
+        "blendEquation": "AddEquation",
+        "blendEquationAlpha": 0.0,
+        "blendSrc": "SrcAlphaFactor",
+        "blendSrcAlpha": 0.0,
+        "blending": "NormalBlending",
+        "clipIntersection": false,
+        "clipShadows": false,
+        "clipping": false,
+        "clippingPlanes": [],
+        "colorWrite": true,
+        "defines": null,
+        "depthFunc": "LessEqualDepth",
+        "depthTest": true,
+        "depthWrite": true,
+        "dithering": false,
+        "extensions": {},
+        "flatShading": false,
+        "fog": false,
+        "fragmentShader": "",
+        "lights": false,
+        "linewidth": 1.0,
+        "morphNormals": false,
+        "morphTargets": false,
+        "name": "",
+        "opacity": 1.0,
+        "overdraw": 0.0,
+        "polygonOffset": false,
+        "polygonOffsetFactor": 0.0,
+        "polygonOffsetUnits": 0.0,
+        "precision": null,
+        "premultipliedAlpha": false,
+        "shadowSide": null,
+        "side": "FrontSide",
+        "skinning": false,
+        "transparent": false,
+        "type": "ShaderMaterial",
+        "uniforms": {},
+        "uniformsNeedUpdate": false,
+        "vertexColors": "NoColors",
+        "vertexShader": "",
+        "visible": true,
+        "wireframe": false,
+        "wireframeLinewidth": 1.0
+      }
+    },
+    "09f9124874ee4361b774bf7f48956ae1": {
+      "model_name": "SceneModel",
+      "model_module": "jupyter-threejs",
+      "model_module_version": "^2.4.1",
+      "state": {
+        "_model_module": "jupyter-threejs",
+        "_model_module_version": "^2.4.1",
+        "_model_name": "SceneModel",
+        "_view_count": null,
+        "_view_module": null,
+        "_view_module_version": "",
+        "_view_name": null,
+        "autoUpdate": true,
+        "background": null,
+        "castShadow": false,
+        "children": [],
+        "fog": null,
+        "frustumCulled": true,
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "matrixAutoUpdate": true,
+        "matrixWorld": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "matrixWorldNeedsUpdate": false,
+        "modelViewMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "name": "",
+        "normalMatrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "overrideMaterial": null,
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "receiveShadow": false,
+        "renderOrder": 0,
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          "XYZ"
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "type": "Scene",
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "visible": true
+      }
+    },
+    "0cb3770241bd4171be164a2ffac39056": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "state": {
+        "_model_module": "@jupyter-widgets/base",
+        "_model_module_version": "2.0.0",
+        "_model_name": "LayoutModel",
+        "_view_count": null,
+        "_view_module": "@jupyter-widgets/base",
+        "_view_module_version": "2.0.0",
+        "_view_name": "LayoutView",
+        "align_content": null,
+        "align_items": null,
+        "align_self": null,
+        "border_bottom": null,
+        "border_left": null,
+        "border_right": null,
+        "border_top": null,
+        "bottom": null,
+        "display": null,
+        "flex": null,
+        "flex_flow": null,
+        "grid_area": null,
+        "grid_auto_columns": null,
+        "grid_auto_flow": null,
+        "grid_auto_rows": null,
+        "grid_column": null,
+        "grid_gap": null,
+        "grid_row": null,
+        "grid_template_areas": null,
+        "grid_template_columns": null,
+        "grid_template_rows": null,
+        "height": null,
+        "justify_content": null,
+        "justify_items": null,
+        "left": null,
+        "margin": null,
+        "max_height": null,
+        "max_width": null,
+        "min_height": null,
+        "min_width": null,
+        "object_fit": null,
+        "object_position": null,
+        "order": null,
+        "overflow": null,
+        "padding": null,
+        "right": null,
+        "top": null,
+        "visibility": null,
+        "width": null
+      }
+    },
+    "c435f9b0c48440d6a0dd49ae9ac8d713": {
+      "model_name": "VuetifyTemplateModel",
+      "model_module": "jupyter-vuetify",
+      "model_module_version": "^1.8.10",
+      "state": {
+        "_component_instances": [],
+        "_dom_classes": [],
+        "_jupyter_vue": "IPY_MODEL_3ed0acc8a6054b6cb506bb2bc8e87129",
+        "_model_module": "jupyter-vuetify",
+        "_model_module_version": "^1.8.10",
+        "_model_name": "VuetifyTemplateModel",
+        "_view_count": null,
+        "_view_module": "jupyter-vuetify",
+        "_view_module_version": "^1.8.10",
+        "_view_name": "VuetifyView",
+        "components": null,
+        "css": null,
+        "data": null,
+        "events": [],
+        "figure": "IPY_MODEL_f2bd245f69cd47089992f874ff11ae8d",
+        "layout": "IPY_MODEL_1ee30a65c51043dbb6d29addb4433254",
+        "methods": null,
+        "models": {
+          "figure": {
+            "stereo": false,
+            "scatters": [
+              {
+                "visible": true,
+                "description": "Scatter 0",
+                "icon": "mdi-chart-bubble",
+                "description_color": "red",
+                "hovered": null
+              }
+            ],
+            "meshes": [],
+            "volumes": []
+          }
+        },
+        "tabbable": null,
+        "template": "IPY_MODEL_f9b489dfec1345a0b1e2ca8435a5a77c",
+        "tooltip": null
+      }
+    },
+    "1ee30a65c51043dbb6d29addb4433254": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "2.0.0",
+      "state": {
+        "_model_module": "@jupyter-widgets/base",
+        "_model_module_version": "2.0.0",
+        "_model_name": "LayoutModel",
+        "_view_count": null,
+        "_view_module": "@jupyter-widgets/base",
+        "_view_module_version": "2.0.0",
+        "_view_name": "LayoutView",
+        "align_content": null,
+        "align_items": null,
+        "align_self": null,
+        "border_bottom": null,
+        "border_left": null,
+        "border_right": null,
+        "border_top": null,
+        "bottom": null,
+        "display": null,
+        "flex": null,
+        "flex_flow": null,
+        "grid_area": null,
+        "grid_auto_columns": null,
+        "grid_auto_flow": null,
+        "grid_auto_rows": null,
+        "grid_column": null,
+        "grid_gap": null,
+        "grid_row": null,
+        "grid_template_areas": null,
+        "grid_template_columns": null,
+        "grid_template_rows": null,
+        "height": null,
+        "justify_content": null,
+        "justify_items": null,
+        "left": null,
+        "margin": null,
+        "max_height": null,
+        "max_width": null,
+        "min_height": null,
+        "min_width": null,
+        "object_fit": null,
+        "object_position": null,
+        "order": null,
+        "overflow": null,
+        "padding": null,
+        "right": null,
+        "top": null,
+        "visibility": null,
+        "width": null
+      }
+    },
+    "f9b489dfec1345a0b1e2ca8435a5a77c": {
+      "model_name": "TemplateModel",
+      "model_module": "jupyter-vue",
+      "model_module_version": "^1.9.2",
+      "state": {
+        "_model_module": "jupyter-vue",
+        "_model_module_version": "^1.9.2",
+        "_model_name": "TemplateModel",
+        "_view_count": null,
+        "_view_module": null,
+        "_view_module_version": "",
+        "_view_name": null,
+        "template": "<template>\n    <div style=\"padding: 5px;\">\n        <div v-for=\"(mark, index) in marks\" :key=\"index\">\n            <v-checkbox hide-details dense style=\"margin-top: 0px; padding-top 0px\"\n                v-model=\"mark.visible\"\n                off-icon=\"mdi-eye-off\"\n                :on-icon=\"mark.icon\"\n                :color=\"mark.description_color\"\n                :background-color=\"mark.hovered ? '#ccc' : 'unset'\"\n                :label=\"mark.description\"></v-checkbox>\n        </div>\n    </div>\n</template>\n<style id=\"fruit-selector-style-file\">\n    .fruit-selector-file td {\n        border: 1px solid #999;\n        padding: 5px 10px ;\n    }\n    .fruit-selector-file {\n        border-collapse: collapse;\n    }\n    .fruit-selector-file td.selected {\n        width: 50px;\n    }\n    .ipv-main-container {\n        background-color: white;\n    }\n    .ipv-main-container:fullscreen {\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        align-items: center;\n    }\n</style>\n\u003cscript>\n    module.export = {\n        mounted() {\n            (async () => {\n                const figureWidgetModel = await this.viewCtx.getModelById(this.figure.substr(10));\n                console.log('figure', figureWidgetModel);\n                this.$set(this.models, 'figure', this.bbproxy(figureWidgetModel, [\"stereo\"], {\n                    \"scatters\": [\"visible\", \"description\", \"icon\", \"description_color\", \"hovered\"],\n                    \"meshes\": [\"visible\", \"description\", \"icon\", \"description_color\", \"hovered\"],\n                    \"volumes\": [\"visible\", \"description\", \"icon\", \"description_color\", \"hovered\"],\n                }));\n            })();\n        },\n        computed: {\n            marks() {\n                return [...this.models.figure.scatters, ...this.models.figure.meshes, ...this.models.figure.volumes]\n            },\n            // anyhover() {\n            //     if(this.models.scatters) {\n\n            //     }\n            //     return this.models.scatters && !this.models.scatters.every((s) => !s.hovered)\n            // }\n        },\n        methods: {\n            bbproxy(model, attrs, widgetAttrs) {\n                const proxy = {}\n\n                attrs.forEach((attr) => {\n                    console.log('setting', attr)\n                    let valueCopy = model.get(attr);\n                    model.on('change:' + attr, (_widget, value) => {\n                        proxy[attr] = value\n                    })\n                    Object.defineProperty(proxy, attr, {\n                        enumerable: true,\n                        configurable: true,                            \n                        get: () => {\n                            return valueCopy;\n                        },\n                        set: (value) => {\n                            valueCopy = value;\n                            model.set(attr, value);\n                            model.save_changes();\n                        },\n                    });\n                })\n                if(widgetAttrs) {\n                    Object.keys(widgetAttrs).forEach((attr) => {\n                        console.log('setting list', attr)\n                        let listValue = model.get(attr);\n                        let listValueProxy = [];\n                        if(listValue) {\n                            listValueProxy = listValue.map((k) => this.bbproxy(k, widgetAttrs[attr]));\n                        }\n                        model.on('change:' + attr, (_widget, value) => {\n                            console.log('changed list', attr, value)\n                            if(value) {\n                                proxy[attr] = value.map((k) => this.bbproxy(k, widgetAttrs[attr]))\n                            } else {\n                                proxy[attr] = null;\n                            }\n                        });\n\n                        Object.defineProperty(proxy, attr, {\n                            enumerable: true,\n                            configurable: true,                            \n                            get: () => {\n                                return listValueProxy;\n                            },\n                            set: (value) => {\n                                listValueProxy = value;\n                                console.log('ignore propagating set')\n                            },\n                        });\n                    })\n                }\n\n                return proxy;\n            },\n        }\n    }\n\n\u003c/script>\n"
+      }
+    },
+    "8184194d439b4c1080c1050ccc857768": {
+      "model_name": "TemplateModel",
+      "model_module": "jupyter-vue",
+      "model_module_version": "^1.9.2",
+      "state": {
+        "_model_module": "jupyter-vue",
+        "_model_module_version": "^1.9.2",
+        "_model_name": "TemplateModel",
+        "_view_count": null,
+        "_view_module": null,
+        "_view_module_version": "",
+        "_view_name": null,
+        "template": "<template>\n    <div class=\"ipyvolume-container-root\">\n        <jupyter-widget ref=\"figure\" :widget=\"figure\"></jupyter-widget>\n        <div class=ipyvolume-container-controls>\n            <v-expansion-panels accordion multiple v-model=\"panels\" flat>\n                <v-expansion-panel>\n                    <v-expansion-panel-header>Legend</v-expansion-panel-header>\n                    <v-expansion-panel-content>\n                        <jupyter-widget ref=\"legend\" :widget=\"legend\"></jupyter-widget>\n                    </v-expansion-panel-content>\n                </v-expansion-panel>\n                <v-expansion-panel>\n                    <v-expansion-panel-header>Misc</v-expansion-panel-header>\n                    <v-expansion-panel-content>\n                        <jupyter-widget v-for=\"child in children\" :key=\"child\" :widget=\"child\"></jupyter-widget>\n                    </v-expansion-panel-content>\n                </v-expansion-panel>\n                <v-expansion-panel>\n                    <v-expansion-panel-header>Debug</v-expansion-panel-header>\n                    <v-expansion-panel-content>\n                        <p>Show render pass:</p>\n                        <v-btn-toggle v-model=\"models.figure.show\" tile group>\n                            <v-btn value=\"render\">Render</v-btn>\n                            <v-btn value=\"front\">Front</v-btn>\n                            <v-btn value=\"back\">Back</v-btn>\n                            <v-btn value=\"id\">ID</v-btn>\n                            <v-btn value=\"coordinate\">Coordinate</v-btn>\n                        </v-btn-toggle>\n                    </v-expansion-panel-content>\n                </v-expansion-panel>\n            </v-expansion-panels>\n        </div>\n    </div>\n</template>\n<style id=\"ipyvolume-container\">\n    .ipyvolume-container-root {\n        display: flex;\n    }\n    .ipyvolume-container-controls {\n        display: flex;\n        flex-direction: column;\n    }\n</style>\n\n\u003cscript>\n    module.export = {\n        created() {\n            console.log('created', this.$refs)\n        },\n        mounted() {\n            const figureComponent = this.$refs.figure;\n            (async () => {\n                const figure = await this.viewCtx.getModelById(this.figure.substr(10));\n                function bbproxy(model, attrs, widgetAttrs) {\n                    const proxy = {}\n\n                    attrs.forEach((attr) => {\n                        console.log('setting', attr)\n                        let valueCopy = model.get(attr);\n                        model.on('change:' + attr, (_widget, value) => {\n                            proxy[attr] = value\n                        })\n                        Object.defineProperty(proxy, attr, {\n                            enumerable: true,\n                            configurable: true,\n                            get: () => {\n                                return valueCopy;\n                            },\n                            set: (value) => {\n                                valueCopy = value;\n                                model.set(attr, value);\n                                model.save_changes();\n                            },\n                        });\n                    })\n                    if(widgetAttrs) {\n                        Object.keys(widgetAttrs).forEach((attr) => {\n                            console.log('setting list', attr)\n                            let listValue = model.get(attr);\n                            let listValueProxy = [];\n                            if(listValue) {\n                                listValueProxy = listValue.map((k) => bbproxy(k, widgetAttrs[attr]));\n                            }\n                            proxy[attr] = listValueProxy;\n                            model.on('change:' + attr, (_widget, value) => {\n                                console.log('changed list', attr, value)\n                                if(value) {\n                                    proxy[attr] = value.map((k) => bbproxy(k, widgetAttrs[attr]))\n                                } else {\n                                    proxy[attr] = null;\n                                }\n                            });\n                            Object.defineProperty(proxy, attr, {\n                                enumerable: true,\n                                configurable: true,\n                                get: () => {\n                                    return listValueProxy;\n                                },\n                                set: (value) => {\n                                    listValueProxy = value;\n                                    console.log('ignore propagating set')\n                                },\n                            });\n                        })\n                    }\n\n                    return proxy;\n                }\n                this.$set(this.models, 'figure', bbproxy(figure, [\"show\"]));\n            })();\n        },\n        methods: {\n        }\n    }\n\n\u003c/script>\n"
+      }
+    }
+  }
+}
+</script>
+<script type="application/vnd.jupyter.widget-view+json">
+{"version_major": 2, "version_minor": 0, "model_id": "9da7d62c8ec444d798a0634611e270c5"}
+</script>
+
+
+</body>
+</html>
